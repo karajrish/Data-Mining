@@ -7,7 +7,10 @@ import java.lang.*;
 import java.util.*;
 import java.io.*;
 
-
+/**
+ *
+ * @author c137202
+ */
 public class Confidence {
 
     int fileCount ;
@@ -25,7 +28,7 @@ public class Confidence {
         StringTokenizer in = null ;
         for(i=1;i<fileCount;i++)
         {
-            FileReader r = new FileReader("C:/DataMining/Frequency_" + i + ".txt");
+            FileReader r = new FileReader("Z:/DWDM/Frequency_" + i + ".txt");
             BufferedReader r1 = new BufferedReader(r);
             l = r1.readLine();
             st = new StringTokenizer(l , " ");
@@ -55,7 +58,7 @@ public class Confidence {
     {
         try{
             
-        File w = new File("C:/DataMining/Confidence.txt");
+        File w = new File("Z:/DWDM/Confidence.txt");
         FileWriter w1 = new FileWriter(w);
         int dataSize ;
         dataSize= data.size();

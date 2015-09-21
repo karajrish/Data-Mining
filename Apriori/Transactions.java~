@@ -13,7 +13,7 @@ public class Transactions {
     {
       
         try{
-         FileReader r = new FileReader("C:/DataMining/Dataset.txt");
+         FileReader r = new FileReader("Z:/DWDM/Dataset.txt");
          BufferedReader r1 = new BufferedReader(r);
          String l = r1.readLine();
          StringTokenizer st ;

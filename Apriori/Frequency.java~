@@ -3,7 +3,10 @@ package apriori_confidence;
 import java.lang.*;
 import java.util.*;
 import java.io.*;
-
+/**
+ *
+ * @author c137202
+ */
 public class Frequency {
     int minSupport ; 
     int frequencyFileCount ;
@@ -30,8 +33,8 @@ public class Frequency {
         
         //Change this address to your directory address
             
-        FileReader r = new FileReader("C:/DataMining/Dataset.txt");
-        File w = new File("C:/DataMining/Frequency_1.txt");
+        FileReader r = new FileReader("Z:/DWDM/Dataset.txt");
+        File w = new File("Z:/DWDM/Frequency_1.txt");
         
         BufferedReader r1 = new BufferedReader(r);
         FileWriter w1 = new FileWriter(w);
@@ -117,7 +120,7 @@ public class Frequency {
                         frequency[k]++;
                 }
             }
-            File w = new File("C:/DataMining/Frequency_"+ i + ".txt");
+            File w = new File("Z:/DWDM/Frequency_"+ i + ".txt");
             FileWriter w1 = new FileWriter(w);
             c = 0 ;
             
@@ -171,9 +174,9 @@ public class Frequency {
         ArrayList<ArrayList<Integer>> joined = new ArrayList<ArrayList<Integer>>();
         int count;
         try {
-            FileReader r = new FileReader("C:/DataMining/Frequency_" + setlength + ".txt");
+            FileReader r = new FileReader("Z:/DWDM/Frequency_" + setlength + ".txt");
             BufferedReader r1 = new BufferedReader(r);
-            File w = new File("C:/DataMining/Candidate_" + setlength + ".txt");
+            File w = new File("Z:/DWDM/Candidate_" + setlength + ".txt");
             FileWriter w1 = new FileWriter(w);
             int i , j , k  , check =1 ;
             

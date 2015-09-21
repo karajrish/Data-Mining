@@ -3,7 +3,10 @@ package apriori_confidence;
 import java.lang.*;
 import java.util.*;
 import java.io.*;
-
+/**
+ *
+ * @author c137202
+ */
 public class Apriori {
 
     //WARNING : When you run the code in any other computer , 
