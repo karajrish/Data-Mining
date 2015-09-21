@@ -1,2 +1,2 @@
-# Data-Mining-
-My implementation of Data Mining algorithms
+# Data-Mining
+My implementation of Data Mining algorithms in Java
